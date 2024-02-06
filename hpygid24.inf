@@ -1,0 +1,173 @@
+[Version]
+Signature="$Windows NT$"
+Provider=%HP%
+ClassGUID={4D36E979-E325-11CE-BFC1-08002BE10318}
+Class=Printer
+DriverVer=01/22/2017,24.94.01.6559
+CatalogFile=hpygid24.cat
+[Manufacturer]
+%HP%=HP,NTx86.6.1,NTamd64.6.1,NTx86.6.2,NTamd64.6.2,NTx86.6.3,NTamd64.6.3
+[HP.NTx86.6.1]
+"HP OfficeJet Pro 7720 series"=INSTALL_7720,USBPRINT\HPOfficeJet_Pro_7720B2C6
+"HP OfficeJet Pro 7720 series"=INSTALL_7720,WSDPRINT\HPOfficeJet_Pro_7720B2C6
+"HP OfficeJet Pro 7720 series"=INSTALL_7720,MF\OfficeJet_Pro_7720_series&WSD&IP_PRINT
+[HP.NTamd64.6.1]
+"HP OfficeJet Pro 7720 series"=INSTALL_7720,USBPRINT\HPOfficeJet_Pro_7720B2C6
+"HP OfficeJet Pro 7720 series"=INSTALL_7720,WSDPRINT\HPOfficeJet_Pro_7720B2C6
+"HP OfficeJet Pro 7720 series"=INSTALL_7720,MF\OfficeJet_Pro_7720_series&WSD&IP_PRINT
+[HP.NTx86.6.2]
+"HP OfficeJet Pro 7720 series"=INSTALL_7720,USBPRINT\HPOfficeJet_Pro_7720B2C6
+"HP OfficeJet Pro 7720 series"=INSTALL_7720,WSDPRINT\HPOfficeJet_Pro_7720B2C6
+"HP OfficeJet Pro 7720 series"=INSTALL_7720,HPOfficeJet_Pro_7720B2C6
+"HP OfficeJet Pro 7720 series"=INSTALL_7720,MF\OfficeJet_Pro_7720_series&WSD&IP_PRINT
+[HP.NTamd64.6.2]
+"HP OfficeJet Pro 7720 series"=INSTALL_7720,USBPRINT\HPOfficeJet_Pro_7720B2C6
+"HP OfficeJet Pro 7720 series"=INSTALL_7720,WSDPRINT\HPOfficeJet_Pro_7720B2C6
+"HP OfficeJet Pro 7720 series"=INSTALL_7720,HPOfficeJet_Pro_7720B2C6
+"HP OfficeJet Pro 7720 series"=INSTALL_7720,MF\OfficeJet_Pro_7720_series&WSD&IP_PRINT
+[HP.NTx86.6.3]
+"HP OfficeJet Pro 7720 series"=INSTALL_7720,USBPRINT\HPOfficeJet_Pro_7720B2C6
+"HP OfficeJet Pro 7720 series"=INSTALL_7720,WSDPRINT\HPOfficeJet_Pro_7720B2C6
+"HP OfficeJet Pro 7720 series"=INSTALL_7720,HPOfficeJet_Pro_7720B2C6
+"HP OfficeJet Pro 7720 series"=INSTALL_7720,MF\OfficeJet_Pro_7720_series&WSD&IP_PRINT
+[HP.NTamd64.6.3]
+"HP OfficeJet Pro 7720 series"=INSTALL_7720,USBPRINT\HPOfficeJet_Pro_7720B2C6
+"HP OfficeJet Pro 7720 series"=INSTALL_7720,WSDPRINT\HPOfficeJet_Pro_7720B2C6
+"HP OfficeJet Pro 7720 series"=INSTALL_7720,HPOfficeJet_Pro_7720B2C6
+"HP OfficeJet Pro 7720 series"=INSTALL_7720,MF\OfficeJet_Pro_7720_series&WSD&IP_PRINT
+[INSTALL_7720]
+CopyFiles=@hpoj_7720.gpd,@hpygid24-pipelineconfig.xml,@hpbmtxr24.dll,@EasyColorPrefilter24.dll,HP_UNIDRV,XPSRasPCL3,HP_XPS_BINARIES,AUTO_CONFIG,COINST_FILES,LMDRV_FILES,LM_FILES
+DriverFile=mxdwdrv.dll
+ConfigFile=UniDrvUI.dll
+HelpFile=UniDrv.HLP
+DataFile=hpoj_7720.gpd
+FeatureScore=0x06
+CoreDriverSections="{D20EA372-DD35-4950-9ED8-A6335AFE79F0},XPSGPD.OEM","{D20EA372-DD35-4950-9ED8-A6335AFE79F5},XPSDRV.OEM"
+AddReg=BiDiFlag
+CopyINF=HPRestStub.inf,HPWIA_OJ7720.inf
+LanguageMonitor="HP 1754 Status Monitor,hpinksts1754LM.dll"
+[HP_UNIDRV]
+UNIDRV.DLL,UNIDRV.DLL,,0x00000020
+UNIRES.DLL,UNIRES.DLL,,0x00000020
+UNIDRVUI.DLL,UNIDRVUI.DLL,,0x00000020
+STDNAMES.GPD,STDNAMES.GPD,,0x00000020 
+STDDTYPE.GDL,STDDTYPE.GDL,,0x00000020
+STDSCHEM.GDL,STDSCHEM.GDL,,0x00000020
+STDSCHMX.GDL,STDSCHMX.GDL,,0x00000020
+UNIDRV.HLP,UNIDRV.HLP,,0x00000020
+LOCALE.GPD,LOCALE.GPD,,0x00000020
+[XPSRasPCL3]
+hpygidMN24.gpd
+hpygiddrv24.dll
+hpygidUI24.dll
+hpygidres24.dll
+hpfime53.dll
+hpUIMDDialog24.dll
+hpygid24.ini
+MSXPSINC.GPD
+[HP_XPS_BINARIES]
+xpssvcs.dll
+mxdwdrv.dll
+[AUTO_CONFIG]
+hpygidDataMap.xml
+hpbuio.dll
+hpygidudm.dll
+[BiDiFlag]
+HKLM,%REG_PATH%\%HP_DRIVER_NAME%\%PrinterDriverDataRegPath%,"FirstTimeBiDi",0x00010001,0 
+[SourceDisksFiles]
+hpoj_7720.gpd=100
+hpygid24-pipelineconfig.xml=100
+STDNAMES.GPD=100
+STDDTYPE.GDL=100
+STDSCHEM.GDL=100
+STDSCHMX.GDL=100
+LOCALE.GPD=100
+hpygidMN24.gpd=100
+hpygid24.ini=100
+MSXPSINC.GPD=100
+hpygidDataMap.xml=100
+[SourceDisksFiles.amd64]
+hpbmtxr24.dll=104
+EasyColorPrefilter24.dll=108
+UNIDRV.DLL=102
+UNIRES.DLL=102
+UNIDRVUI.DLL=102
+UNIDRV.HLP=102
+hpygiddrv24.dll=102
+hpygidUI24.dll=102
+hpygidres24.dll=102
+hpfime53.dll=102
+hpUIMDDialog24.dll=102
+xpssvcs.dll=102
+mxdwdrv.dll=102
+hpbuio.dll=106
+hpygidudm.dll=106
+hpinkcoi1754.dll=102
+hpinkins1754.exe=102
+hpinksts1754LM.dll=102
+hpinksts1754.dll=102
+[SourceDisksFiles.x86]
+hpbmtxr24.dll=103
+EasyColorPrefilter24.dll=107
+UNIDRV.DLL=101
+UNIRES.DLL=101
+UNIDRVUI.DLL=101
+UNIDRV.HLP=101
+hpygiddrv24.dll=101
+hpygidUI24.dll=101
+hpygidres24.dll=101
+hpfime53.dll=101
+hpUIMDDialog24.dll=101
+xpssvcs.dll=101
+mxdwdrv.dll=101
+hpbuio.dll=105
+hpygidudm.dll=105
+hpinkcoi1754.dll=101
+hpinkins1754.exe=101
+hpinksts1754LM.dll=101
+hpinksts1754.dll=101
+[SourceDisksNames]
+100=%Location%
+104=%Location%,hpbxpsrender_x64.cab,,amd64
+103=%Location%,hpbxpsrender_x86.cab,,i386
+108=%Location%,,,amd64
+107=%Location%,,,i386
+102=%Location%,,,amd64
+101=%Location%,,,i386
+106=%Location%,hpgidudmio_x64.cab,,amd64
+105=%Location%,hpgidudmio_x86.cab,,i386
+[DestinationDirs]
+DefaultDestDir=66000
+COINST_FILES=11             ; Copy CoInstaller files to system32
+LM_FILES=66002              ; Copy LM files to driver folder for Vista and beyond
+LM_FILES_XP=66002
+[Strings]
+Location="HP XPS PCL3 Driver"
+HP="HP"
+HP_DRIVER_NAME="HP Standard PCL3 Driver"
+PrinterDriverDataRegPath="PrinterDriverData"
+REG_PATH="SYSTEM\CurrentControlSet\Control\Print\Printers"
+[INSTALL_7720.CoInstallers]
+AddReg=hp_CoInstaller_O7720_addReg
+CopyFiles=COINST_FILES
+[INSTALL_7720.Services]
+AddService=,0x2    ; no value for the service name
+[hp_CoInstaller_O7720_addReg]
+HKR,,CoInstallers32,0x00010000,"hpinkcoi1754.dll,CoDeviceInstall"
+HKR,,SoftwareRegPath,,"Software\HP\InstalledProducts\{8D1C290C-7C76-4BC3-B869-A50152A6E2A1}"
+HKR,,ModelName,,"HP OfficeJet Pro 7720 series"
+[SourceInfo]
+SourceDirectory=%1%
+[COINST_FILES]
+hpinkcoi1754.dll
+hpinkins1754.exe
+[LMDRV_FILES]
+hpinksts1754LM.dll
+hpinksts1754.dll
+[LM_FILES]
+hpinksts1754LM.dll
+[LM_FILES_XP]
+hpinksts1754LM.dll
+hpinksts1754.dll
+[AdditionalDependencies]
+DOT_NET_3_0=Y
